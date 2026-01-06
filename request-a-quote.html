@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Request an HVAC Quote in Harford County, MD | Harford County HVAC Pros</title>
+  <meta name="description" content="Request an HVAC quote in Harford County, MD for AC repair, heating, installs, or emergency service. Submit your details and get matched faster." />
+  <link rel="canonical" href="https://HarfordCountyHVACPros.com/request-a-quote" />
+  <link rel="stylesheet" href="/assets/styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header>
+    <div class="container">
+      <div class="nav">
+        <a class="brand" href="/">
+          <strong>Harford County HVAC Pros</strong>
+          <span>HVAC directory + quote requests in Harford County, MD</span>
+        </a>
+        <nav aria-label="Primary">
+          <ul>
+            <li><a href="/hvac-contractors-harford-county-md.html">Contractors</a></li>
+            <li><a href="/emergency-hvac-repair-harford-county-md.html">Emergency Repair</a></li>
+            <li><a href="/ac-repair-harford-county-md.html">AC Repair</a></li>
+            <li><a href="/heating-furnace-repair-harford-county-md.html">Heating</a></li>
+            <li><a href="/cities-served.html">Cities Served</a></li>
+            <li><a class="btn primary" href="/request-a-quote.html" aria-current="page">Request a Quote</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="container">
+      <section class="hero">
+        <span class="kicker">Lead capture</span>
+        <h1>Request a quote</h1>
+        <p>
+          Share your ZIP code, service type, and urgency. This form is intentionally simple and fast.
+          Server-side delivery can be added later (email, CRM, n8n, etc.).
+        </p>
+      </section>
+
+      <section class="section form" aria-labelledby="quote-form">
+        <h2 id="quote-form">Quote request form</h2>
+
+        <div class="notice" data-form-success hidden>
+          <strong>Request received.</strong> This is a demo confirmation message. Next step: connect form submissions to your inbox/CRM.
+        </div>
+
+        <form data-quote-form novalidate>
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required />
+          </div>
+
+          <div class="field">
+            <label for="phone">Phone number</label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="(410) 555-0123" required />
+          </div>
+
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required />
+          </div>
+
+          <div class="field">
+            <label for="zip">ZIP code</label>
+            <input id="zip" name="zip" type="text" inputmode="numeric" autocomplete="postal-code" required />
+          </div>
+
+          <div class="field">
+            <label for="service">Type of HVAC service needed</label>
+            <select id="service" name="service" required>
+              <option value="">Select one…</option>
+              <option>Emergency HVAC Repair</option>
+              <option>AC Repair</option>
+              <option>Heating / Furnace Repair</option>
+              <option>Installation / Replacement</option>
+              <option>Maintenance / Tune-Up</option>
+              <option>Other</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="urgency">Urgency</label>
+            <select id="urgency" name="urgency" required>
+              <option value="">Select one…</option>
+              <option>Emergency</option>
+              <option>Non-Emergency</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="details">Notes (optional)</label>
+            <textarea id="details" name="details" placeholder="Describe symptoms: no airflow, warm air, leaks, smells, noises, etc."></textarea>
+          </div>
+
+          <div class="actions">
+            <button class="btn primary" type="submit">Submit Request</button>
+            <a class="btn" href="/hvac-contractors-harford-county-md.html">Browse Contractors</a>
+          </div>
+        </form>
+
+        <p class="notice" style="margin-top:1rem;">
+          Privacy note: This template does not store data by default. When you connect it to a backend, add a privacy policy and consent language.
+        </p>
+      </section>
+    </div>
+
+    <script src="/assets/main.js" defer></script>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div><strong>Harford County HVAC Pros</strong> — Harford County, MD</div>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/hvac-contractors-harford-county-md.html">Contractors</a>
+        <a href="/cities-served.html">Cities Served</a>
+      </div>
+      <div style="margin-top:.7rem;">© <span id="y"></span> HarfordCountyHVACPros.com</div>
+    </div>
+    <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+  </footer>
+</body>
+</html>
